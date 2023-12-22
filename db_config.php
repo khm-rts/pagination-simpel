@@ -2,7 +2,7 @@
 $db_host	= "localhost";	// Hostnavn på database
 $db_user	= "root";		// Brugernavn til database
 $db_pass	= "";			// Adgangskode til database
-$db_name	= "shop";		// Databasenavn
+$db_name	= "pagination";		// Databasenavn
 
 // Opretter forbindelse til databasen
 $link = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
